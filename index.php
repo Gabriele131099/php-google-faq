@@ -74,9 +74,9 @@
         
     foreach ($faqs as $key => $text) {
         foreach ($text as $k) {
-            echo '<h1>'.$k['question'].'</h1>';
+            echo '<h1 style="width: 1000px; margin:auto; padding:30px;">'.$k['question'].'</h1>';
             for ($i=0; $i < count($k['answer']) ; $i++) { 
-                echo '<p>'.$k['answer'][$i].'</p>';
+                echo '<p style="width: 1000px; margin:auto; padding:10px;">'.$k['answer'][$i].'</p>';
             }
         }        
     }
